@@ -36,8 +36,4 @@ class TaskManager:
 if __name__ == "__main__":
     manager = TaskManager()
     task_id = manager.add_task("Test task", "This is a test task")
-    print(manager.list_tasks())
-    task = manager.get_task(task_id)
-    print(task)
-    manager.update_status(task_id, "in progress")
-    print(manager.list_tasks())
+  

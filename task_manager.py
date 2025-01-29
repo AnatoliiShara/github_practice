@@ -1,6 +1,6 @@
 class Task:
     
-    def __iint__(self, title, description, status="new"):
+    def __init__(self, title, description, status="new"):
         self.title = title
         self.description = description
         self.status = status
